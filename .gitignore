@@ -1,0 +1,37 @@
+# Data and annotations (private challenge assets)
+/data/
+/annotation/
+/yolo_dataset/
+/edge_cases/
+
+# Training and inference artifacts
+/training_artifacts/
+/demo_outputs/
+*.pt
+*.onnx
+*.engine
+
+# Generated metadata and local experiment outputs
+dataset_stats.json
+dataset_metadata.json
+yolo_data.yaml
+yolo_training_config.yaml
+*.log
+
+# Python cache and virtual environments
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+dist/
+build/
+*.egg-info/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
